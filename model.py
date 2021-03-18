@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import pickle
 #import matplotlib.pyplot as plt 
-dataset = pd.read_csv("C:\\Users\\Donatus\\Documents\\WalmartPredict\\WalmartSales.csv")
+dataset = pd.read_csv("WalmartSales.csv")
 dataset.isnull().sum()
 
 #dataset['rate'].fillna(0, inplace=True)
@@ -12,7 +12,7 @@ dataset.isnull().sum()
 #X = dataset.iloc[:, :3]
 
 #date time
-df=dataset.copy()
+df = dataset.copy()
 pd.to_datetime(df['Date'])
 
 df = df.drop('Date', 1)
@@ -25,7 +25,7 @@ X = df[['Store', 'Dept', 'IsHoliday']]
 y = df['Weekly_Sales']
 
 from sklearn.model_selection import train_test_split
-x_train, x_test, y_train, y_test = train_test_split(X,y,test_size=.25, random_state=42)
+x_train, x_test, y_train, y_test = train_test_split(X,y,test_size = .25, random_state = 42)
 
 from sklearn.linear_model import LinearRegression
 regressor = LinearRegression()

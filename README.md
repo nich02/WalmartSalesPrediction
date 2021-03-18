@@ -7,4 +7,4 @@ This project exhibits end to end ML project development which is intended to dem
 ![Forks](https://img.shields.io/github/forks/nich02/WalmartSalesPrediction?style=social) ![APM](https://img.shields.io/apm/dm/vim-mode) ![shields](https://img.shields.io/opencollective/sponsors/0) ![Hackage-Deps](https://img.shields.io/hackage-deps/v/lens) ![GitHub top language](https://img.shields.io/github/languages/top/nich02/WalmartSalesPrediction)
 
 #### Find Your Developers
-![Twitter Follow](https://img.shields.io/twitter/follow/okomojacob?style=social) ![Twitter Follow](https://img.shields.io/twitter/follow/nich02?style=social)
+![Twitter Follow](https://img.shields.io/twitter/follow/okomojacob?style=social) ![Twitter Follow](https://img.shields.io/twitter/follow/nicmsn2?style=social)
